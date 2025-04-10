@@ -10,11 +10,23 @@ This project gave life to an open-source library for Visual Anomaly Detection, w
 git clone https://github.com/AMCO-UniPD/moviad
 ```
 
-
 ## Abstract
 
 Visual Anomaly Detection (VAD) has gained significant research attention for its ability to identify anomalous images and pinpoint the specific areas responsible for the anomaly. A key advantage of VAD is its unsupervised nature, which eliminates the need for costly and time-consuming labeled data collection. However, despite its potential for real-world applications, the literature has given limited focus to resource-efficient VAD, particularly for deployment on edge devices.
 This work addresses this gap by leveraging lightweight neural networks to reduce memory and computation requirements, enabling VAD deployment on resource-constrained edge devices. We benchmark the major VAD algorithms within this framework and demonstrate the feasibility of edge-based VAD using the well-known MVTec dataset. Furthermore, we introduce a novel algorithm, Partially Shared Teacher-student PaSTe, designed to address the high resource demands of the existing Student Teacher Feature Pyramid Matching (STFPM) approach. Our results show that PaSTe decreases the inference time by 25%, while reducing the training time by 33% and peak RAM usage during training by 76%.
+
+## Citation
+
+```bibtex
+@inproceedings{,
+    title={},
+    author={},
+    booktitle={},
+    pages={},
+    year={},
+    organization={}
+}
+```
 
 ## Supplementary material
 
