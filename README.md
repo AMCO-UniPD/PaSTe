@@ -98,27 +98,23 @@ If you are interested in the F1 pixel level and other metrics scores obtained by
 ### Table 3 Extension
 This is an extension of the Table 3 present in the paper. In this table all the backbones are reported. 
 
-||                                           | PatchCore | PaDiM | CFA   | STFPM  | PaSTe
-|-                  |------------------------|:---------:|:-----:|:-----:|:------:|:-------:|
-|                   |  **Total Memory [MB]** | 300       | 3.72G | 141   | 189.7  | - 	   	| 
+|                   |                        | PatchCore | PaDiM | CFA   | STFPM  | PaSTe   |
+|-------------------|------------------------|:---------:|:-----:|:-----:|:------:|:-------:|
+|                   |  **Total Memory [MB]** | 300       | 3.72G | 141   | 189.7  | - 	   	|
 | **WideResNet50**  | **Inference [MAC]**    | 10.42G    | 9.19G | 36.89G| 18.3G  | - 		|
 |                   | **AD Performance [F1]**| 0.57      | 0.57  | 0.60  | 0.51   | - 		|
-|                   
-|                   | **Total Memory [MB]**  | 31.11     | 49.4  | 6.16  | 5.32   | 5.11  	|  
+|                   | **Total Memory [MB]**  | 31.11     | 49.4  | 6.16  | 5.32   | 5.11  	|
 | **MobileNetV2** 	| **Inference [MAC]**    | 235.6M    |225.5M | 2.8G  | 454.4M | 341.2M	|
 |                   | **AD Performance [F1]**| 0.53      |0.49   | 0.55  | 0.52   | 0.53    |
-|                   |
-|                   | **Total Memory [MB]**  | 44.37     | 428.7 | 20.45 | 2.7	  | 2.5		|      
-| **PhiNet**        | **Inference [MAC]**    | 2.17G     | 217M  | 3.2G  | 433.8M | 271.7M 	|      
-|                   | **AD Performance [F1]**| 0.44      | 0.43  | 0.48  | 0.47	  | 0.47 	| 
-|                        
-|                   | **Total Memory [MB]**  | 13.1      | 2.73  | 0.727 | 0.6    | 0.59	|      
-| **MicroNet-m1** 	| **Inference [MAC]**    | 29.3M     | 2.93M | 817M  | 5.86M  | 0.58M	|      
-|                   | **AD Performance [F1]**| 0.16      | 0.2   | 0.07  | 0.17   | 0.17 	|    
-|  
-|                   | **Total Memory [MB]**  | 16.48     | 15.12 | 2.69  | 1.76	  | 1.68	|     
-| **MCUNet-in3** 	| **Inference [MAC]**    | 1.1G      | 112M  | 2.9G  | 224.3M | 156.9M 	|      
-|                   | **AD Performance [F1]**| 0.53      | 0.45	 | 0.55  | 0.52   | 0.52	|      
+|                   | **Total Memory [MB]**  | 44.37     | 428.7 | 20.45 | 2.7	  | 2.5		|
+| **PhiNet**        | **Inference [MAC]**    | 2.17G     | 217M  | 3.2G  | 433.8M | 271.7M 	|
+|                   | **AD Performance [F1]**| 0.44      | 0.43  | 0.48  | 0.47	  | 0.47 	|
+|                   | **Total Memory [MB]**  | 13.1      | 2.73  | 0.727 | 0.6    | 0.59	|
+| **MicroNet-m1** 	| **Inference [MAC]**    | 29.3M     | 2.93M | 817M  | 5.86M  | 0.58M	|
+|                   | **AD Performance [F1]**| 0.16      | 0.2   | 0.07  | 0.17   | 0.17 	|
+|                   | **Total Memory [MB]**  | 16.48     | 15.12 | 2.69  | 1.76	  | 1.68	|
+| **MCUNet-in3** 	| **Inference [MAC]**    | 1.1G      | 112M  | 2.9G  | 224.3M | 156.9M 	|
+|                   | **AD Performance [F1]**| 0.53      | 0.45	 | 0.55  | 0.52   | 0.52	|
 
 ### Overall benchmark complete plot
 
